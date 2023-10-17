@@ -74,6 +74,8 @@ article {
 
 
 .content {
+    display: flex;
+    flex-direction: column;
     background-color: #FFFBDC;
 }
 
@@ -87,6 +89,8 @@ width: 10rem;
 height: 3rem;
 font-size: 1rem;
 background-color: #EEFFF0;
+margin-top: auto;
+align-self: center;
 }
 
 button:hover {
